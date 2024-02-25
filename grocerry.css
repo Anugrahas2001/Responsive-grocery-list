@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url("https://w0.peakpx.com/wallpaper/484/117/HD-wallpaper-supermarket-and-background-grocery-store.jpg");
+     */
+}
+
+.main-container{
+    width: 100rem;
+    height: 38rem;
+    background-color:#004756;
+    /* background: linear-gradient(20deg,black,rgb(56, 3, 52)10%,rgb(34, 15, 15)50%); */
+  
+    
+}
+.product_titile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.product_titile{
+    color: white;
+    font-size: xx-large;
+
+}
+#sub-container{
+    width: 80rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#grocries{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    font-size: xx-large;
+    width: 36rem;
+}
+
+#grocries li{
+padding-bottom: 1rem;
+    padding: 1rem 0;
+    flex-basis: 32.32%;
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+    color: black;
+    margin-top: 0.7%;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: white;
+    
+}
+
+#footerPrice{
+    
+    height: 2.5rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.secssion_titles{
+    padding-top: 1rem;
+    font-size: x-large;
+    padding-right: 13rem;
+    color: azure;
+    padding-left: 25rem;
+    
+}
+
+#totalprice{
+    width: 1rem;
+    height: 4rem;
+    text-align: center;
+    color: white;
+    padding-left: 5rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+
+}
