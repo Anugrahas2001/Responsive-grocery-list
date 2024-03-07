@@ -8,6 +8,6 @@ The Responsive Grocery List project is a simple web application designed to help
 2.  User-Friendly Interface
 
 ## Getting Started
-1. Clone git repository :
+1. Clone git repository : https://github.com/Anugrahas2001/Responsive-grocery-list.git
 2. Navigate to the Project directory.
 3. Open .html file and Right click > Open with live server.
